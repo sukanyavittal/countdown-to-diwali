@@ -1,24 +1,33 @@
 body
 {
    text-align: center;
-   background: url("d.jpg")no-repeat center fixed; 
+   background: url("images/diya.jpg")no-repeat center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
    background-size: cover;
-    
-  
-   
 }
-.nOfDays {    
+
+#days
+{    
     
-    font-size: 10em;
+    font-size: 80px;
     color:#DAA520;/*#B22222;*/
 }
-
-.info
+#hour, #min, #sec
 {
-    font-size: 5em;
-    color:#2E8B57;
+    font-size: 30px;
+    color:#DAA520;
 }
 
+#text
+{
+    font-size:20px;
+    color:cornsilk;
+   
+}
+.info, a
+{
+    font-size: 50px;
+    color:#2E8B57;
+}
