@@ -1,7 +1,7 @@
 function days()
 {
     var today = new Date();
-    var diwali = new Date("OCTOBER, 19 , 2017");
+    var diwali = new Date("November,7 , 2018");
     var ms = (diwali.getTime()-today.getTime()); //time in milliseconds
     var x = ms / 1000;
     var seconds = Math.floor(x % 60);
